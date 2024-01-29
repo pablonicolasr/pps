@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% load static %}
+{% block titulo %} Lista noticias {% endblock %}
+{% block contenido %}
+<body style="background-color: #87BEEB;">
+
+<h4 class="card-title">Opción 1: Agregar Texto Manualmente
+    <br>
+    ¿Cómo utilizarlo? : Ingresa el texto de la noticia en el área proporcionada y haz clic en el botón "Guardar". El sistema clasificará la noticia basándose en el texto ingresado.</h4>
+
+
+<!-- Formulario para ingresar texto manualmente -->
+<div class="card mt-2" style="background-color: #007999; color: #ffffff;">
+<div class="card-body">
+    <form action="{% url 'crear' %}" method="post">
+        {% csrf_token %}
+        <br>
+        <div class="form-group">
+            <label for="texto_noticia">Texto de la noticia:</label><br>
+            <textarea class="form-control" id="texto_noticia" name="texto_noticia" rows="3"></textarea>
+            <br>
+        </div>
+        <input name="" id="" class="btn btn-success" type="submit" value="Guardar">
+    </form>
+</div>
+</div>
+<br> <br>
+<br>
+<br>
+
+    <h4 class="card-title">Opción 2: Agregar a través de URL de la noticia
+        <br>
+        ¿Cómo utilizarlo?: Haz clic en el botón "Agregar URL de noticia" y copia la url (link) de la noticia. El sistema procesará la URL y clasificará la noticia.
+    </h4>
+    <br>
+  
+    <a class="btn btn-success btn-lg" href="{% url 'crear' %}" role="button" style="background-color: #000000;">Agregar URL de noticia</a>
+    <br>
+    <br>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            
+        </div>
+
+   <div class="card-body">
+    <h4 class="card-title text-center my-4">Datos guardados de ambas opciones noticias</h4>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>URL</th>
+                    <th>Titulo</th>
+                    <th>Caracteres</th>
+                    <th>Texto</th>
+                    <th>Categoria</th>
+                    <th>Tipo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for noti in noticias %}
+                <tr>
+                    <td>{{ noti.id }}</td>
+
+                    <td> {% if noti.enlace|length > 30 %}
+                        {{ noti.enlace|slice:":30" }}...
+                    {% else %}
+                        {{ noti.enlace }}
+                    {% endif %}
+                    </td>
+
+                    <td> {% if noti.titulo|length > 25 %}
+                        {{ noti.titulo|slice:":25" }}...
+                    {% else %}
+                        {{ noti.titulo }}
+                    {% endif %}
+
+                    <td>{{ noti.caracteres }}</td>
+                    <td>
+                        {% if noti.texto|length > 50 %}
+                            {{ noti.texto|slice:":50" }}...
+                        {% else %}
+                            {{ noti.texto }}
+                        {% endif %}
+                    </td>
+                    <td>{{ noti.categoria }}</td>
+                    <td>{{ noti.tipo}}</td>
+
+                    <td>
+                        <select class="form-control custom-select" id="modelo_{{ noti.id }}" name="modelo">
+                        </select>
+                        <button type="button" class="btn btn-primary clasificador-btn" data-noticia-id="{{ noti.id }}" data-titulo="{{ noti.titulo }}" data-texto="{{ noti.texto }}">Clasificador</button>
+                        <br>
+                            <br>
+                            <a class="btn btn-danger" href="{% url 'eliminar' noti.id %}" role="button">Borrar</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="card-footer text-muted">
+</div>
+</div>
+
+<script>
+    // Función que se ejecuta al hacer clic en el botón de clasificación
+    function clasificarNoticia(noticiaId, titulo, texto) {
+        // Obtener el modelo seleccionado
+        var modelo = document.getElementById('modelo_' + noticiaId).value;
+
+        // Redirigir a la vista de clasificación con los datos
+        window.location.href = "{% url 'clasificador' %}?noticiaId=" + noticiaId + "&modelo=" + modelo + "&titulo=" + encodeURIComponent(titulo) + "&texto=" + encodeURIComponent(texto);
+    }
+
+    // Agregar un listener a todos los botones de clasificación
+    document.querySelectorAll('.clasificador-btn').forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+            var noticiaId = this.dataset.noticiaId; // Obtener el ID de la noticia
+            var titulo = this.dataset.titulo; // Obtener el título de la noticia
+            var texto = this.dataset.texto; // Obtener el texto de la noticia
+            clasificarNoticia(noticiaId, titulo, texto); // Llamar a la función de clasificación con los datos de la noticia
+        });
+    });
+</script>
+
+
+
+
+
+{% endblock contenido %}

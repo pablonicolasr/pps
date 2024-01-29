@@ -1,0 +1,14 @@
+# Archivos .pkl y .h5
+*.pkl
+*.h5
+
+# Carpetas de bibliotecas de Python
+venv/
+*.pyc
+__pycache__/
+
+# Entorno virtual
+env/
+
+# Base de datos (SQLite, por ejemplo)
+db.sqlite3

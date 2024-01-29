@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block titulo %}Formulario de Clasificación{% endblock titulo %}
+{% block contenido %}
+<h1>Clasificación de Noticia</h1>
+
+<!-- Formulario de clasificación -->
+<form id="clasificacionForm" >
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="modelo">Modelo elegido:</label>
+        <select class="form-control" id="modelo" name="modelo">
+            <option value="" disabled selected>Elegir un modelo</option>
+            <option value="svm" style="color: blue;">SVM</option>
+            <option value="redes_neuronales" style="color: green;">Redes Neuronales</option>
+            <option value="random_forest" style="color: red;">Random Forest</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="noticia_id">ID de noticia seleccionada:</label>
+        <input type="text" class="form-control" id="ID" name="id" value="{{ request.GET.noticiaId }}" disabled>
+    </div>
+    <div class="form-group">
+        <label for="titulo">Título:</label>
+        <input type="text" class="form-control" id="titulo" name="titulo" value="{{ request.GET.titulo }}" disabled>
+    </div>
+    <div class="form-group">
+        <label for="texto">Texto:</label>
+        <textarea class="form-control" id="texto" name="texto" rows="3" disabled>{{ request.GET.texto }}</textarea>
+    </div>
+
+    <button type="button" class="btn btn-primary" onclick="clasificarNoticia()">Clasificar</button>
+    <br>
+    <br>
+    <div class="form-group">
+        <label for="resultado">Clasificación final con el modelo seleccionado:</label>
+        <textarea class="form-control" id="resultado" name="resultado" rows="3" disabled></textarea>
+    </div>
+</form>
+
+<script>
+    function clasificarNoticia() {
+        var noti_id=document.getElementById('ID').value;
+        var modelo = document.getElementById('modelo').value;
+        var texto = document.getElementById('texto').value;
+
+        // Crear un objeto FormData con los datos del formulario
+        var formData = new FormData();
+        formData.append('id', noti_id);
+        formData.append('modelo', modelo);
+        formData.append('texto', texto);
+        formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+
+        // Crear una nueva solicitud POST
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '{% url 'vista_clasificacion' %}', true);
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest'); // Agregar esta línea para indicar que es una solicitud AJAX
+        xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}"); // Agregar esta línea para enviar el token CSRF
+        
+        // Manejar la respuesta
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // Actualizar el textarea con el resultado de la clasificación
+                document.getElementById('resultado').value = JSON.parse(xhr.responseText).resultado;
+            }
+        };
+
+        // Enviar la solicitud con el objeto FormData
+        xhr.send(formData);
+    }
+</script>
+{% endblock contenido %}

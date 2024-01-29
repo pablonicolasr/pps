@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+{% block titulo %} Agregar una nueva noticia {% endblock %}
+
+{% block contenido %}
+<body style="background-color: #87BEEB;">
+    <form enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+
+        <div id="url_noticia_div">
+            <label>URL de la Noticia:</label>
+            <input type="text" name="url_noticia" id="id_url_noticia">
+        </div>
+
+        <br>
+        <br>
+        <div class="col-12 help-text">{{formulario.errors}} </div>
+
+        <input name="" id="" class="btn btn-success"  type="submit" value="Guardar">
+        <a name="" id="" class="btn btn-primary" href="{% url 'noticias'%}" role="button">Cancelar</a>
+    </form>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const opcionSelect = document.getElementById('id_opcion');
+            const urlNoticiaDiv = document.getElementById('url_noticia_div');
+            const textoDirectoDiv = document.getElementById('texto_directo_div');
+            const urlNoticiaInput = document.getElementById('id_url_noticia');
+            const textoDirectoTextarea = document.getElementById('id_texto_noticia');
+
+            opcionSelect.addEventListener('change', function () {
+                if (opcionSelect.value === 'url') {
+                    urlNoticiaDiv.style.display = 'block';
+                    textoDirectoDiv.style.display = 'none';
+                    textoDirectoTextarea.value = '';
+                } else if (opcionSelect.value === 'texto_directo') {
+                    urlNoticiaDiv.style.display = 'none';
+                    textoDirectoDiv.style.display = 'block';
+                    urlNoticiaInput.value = '';
+                }
+            });
+
+            // Inicialmente, oculta el campo de texto directo
+            textoDirectoDiv.style.display = '';
+        });
+    </script>
+</body>
+{% endblock contenido %}

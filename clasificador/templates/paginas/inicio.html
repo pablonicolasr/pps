@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block titulo %} Inicio {% endblock %}
+{% block contenido %}
+
+<body style="background-color: #87BEEB;">
+    <div class="p-5" style="background-color: #e0ffff;">
+        <div class="container">
+            <h1 class="display-3">Clasificador de Noticias</h1>
+            <p class="lead">El objetivo de este sitio es proporcionarte una herramienta sencilla y efectiva para clasificar noticias en diversas categorías. Simplemente comparte la URL de la noticia que te interesa o podes adjuntar el texto de la noticia y se va a asignar a la categoría correspondiente.</p>
+            <hr class="my-2">
+            <p class="lead">
+                <a class="btn btn-success btn-lg" href="{% url 'noticias' %}" role="button">¡Comencemos!</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+{% endblock contenido %}
