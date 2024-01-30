@@ -1,0 +1,1032 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow.compat.v1",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow.compat.v1",
+        "description": "tensorflow.compat.v1",
+        "detail": "tensorflow.compat.v1",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.contrib.staticfiles.urls",
+        "description": "django.contrib.staticfiles.urls",
+        "isExtraImport": true,
+        "detail": "django.contrib.staticfiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RedirectView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "spacy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "spacy",
+        "description": "spacy",
+        "detail": "spacy",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "TruncatedSVD",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "TruncatedSVD",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "scipy.sparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy.sparse",
+        "description": "scipy.sparse",
+        "detail": "scipy.sparse",
+        "documentation": {}
+    },
+    {
+        "label": "scipy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy",
+        "description": "scipy",
+        "detail": "scipy",
+        "documentation": {}
+    },
+    {
+        "label": "pickle,joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle.joblib",
+        "description": "pickle.joblib",
+        "detail": "pickle.joblib",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "unidecode",
+        "importPath": "unidecode",
+        "description": "unidecode",
+        "isExtraImport": true,
+        "detail": "unidecode",
+        "documentation": {}
+    },
+    {
+        "label": "Tokenizer",
+        "importPath": "tensorflow.keras.preprocessing.text",
+        "description": "tensorflow.keras.preprocessing.text",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.text",
+        "documentation": {}
+    },
+    {
+        "label": "pad_sequences",
+        "importPath": "tensorflow.keras.preprocessing.sequence",
+        "description": "tensorflow.keras.preprocessing.sequence",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.sequence",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ClasificadorConfig",
+        "kind": 6,
+        "importPath": "clasificador.apps",
+        "description": "clasificador.apps",
+        "peekOfCode": "class ClasificadorConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'clasificador'",
+        "detail": "clasificador.apps",
+        "documentation": {}
+    },
+    {
+        "label": "NoticiaForm",
+        "kind": 6,
+        "importPath": "clasificador.forms",
+        "description": "clasificador.forms",
+        "peekOfCode": "class NoticiaForm(forms.ModelForm):\n    class Meta:\n        model = Noticia\n        fields = ['enlace', 'titulo', 'caracteres', 'texto', 'categoria']",
+        "detail": "clasificador.forms",
+        "documentation": {}
+    },
+    {
+        "label": "InformIngresada",
+        "kind": 6,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "class InformIngresada(models.Model):\n    enlace = models.URLField(null=True)\n    texto = models.TextField(null=True)\nclass Scraping(models.Model):\n    titulo = models.TextField(null=True, blank=True)\n    caracteres = models.TextField(null=True, blank=True)\n    fecha = models.DateField(null=True, blank=True)\n    texto = models.TextField(null=True, blank=True)\nclass Noticia(models.Model):\n    TIPO_CHOICES = [",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "Scraping",
+        "kind": 6,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "class Scraping(models.Model):\n    titulo = models.TextField(null=True, blank=True)\n    caracteres = models.TextField(null=True, blank=True)\n    fecha = models.DateField(null=True, blank=True)\n    texto = models.TextField(null=True, blank=True)\nclass Noticia(models.Model):\n    TIPO_CHOICES = [\n        ('scraping', 'scraping'),\n        ('texto', 'texto manual'),\n    ]",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "Noticia",
+        "kind": 6,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "class Noticia(models.Model):\n    TIPO_CHOICES = [\n        ('scraping', 'scraping'),\n        ('texto', 'texto manual'),\n    ]\n    enlace = models.URLField(verbose_name=\"Enlace\", null=True, blank=True)\n    titulo = models.TextField(verbose_name='Titulo')\n    caracteres = models.TextField()\n    texto = models.TextField(null=True, blank=True)\n    categoria = models.TextField(verbose_name=\"Categoria\", null=True)",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "Clasificacion",
+        "kind": 6,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "class Clasificacion(models.Model):\n    MODELOS_CHOICES = [\n        ('svm', 'SVM (Support Vector Machine)'),\n        ('redes_neuronales', 'Redes Neuronales'),\n    ]\n    CATEGORIA_CHOICES = [\n        ('Salud', 'SALUD'),\n        ('Deportes', 'DEPORTES'),\n        ('Medioambiente', 'MEDIOAMBIENTE'),\n        ('Economia', 'ECONOMIA'),",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_svm",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_modelo_svm():\n    try:\n        modelo_svm = joblib.load('modelos/modelo_svm_mejorado.pkl')\n        return modelo_svm\n    except Exception as e:\n        raise Exception(f'Error al cargar modelo SVM: {str(e)}')\ndef cargar_vector_svm():\n    try:\n        vector_svm = joblib.load('modelos/vectorizador_svm.pkl')\n        return vector_svm",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_vector_svm",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_vector_svm():\n    try:\n        vector_svm = joblib.load('modelos/vectorizador_svm.pkl')\n        return vector_svm\n    except Exception as e:\n        raise Exception(f'Error al cargar modelo SVM: {str(e)}')\ndef cargar_modelo_red_neuronal():\n    try:\n        modelo_red_neuronal = load_model('modelos/modelo_redes_alt.h5')\n        return modelo_red_neuronal",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_red_neuronal",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_modelo_red_neuronal():\n    try:\n        modelo_red_neuronal = load_model('modelos/modelo_redes_alt.h5')\n        return modelo_red_neuronal\n    except Exception as e:\n        raise Exception(f'Error al cargar modelo de red neuronal: {str(e)}')\ndef cargar_label_red_neuronal():\n    try:\n        label_encoder = joblib.load('modelos/label_encoder.pkl')\n        return label_encoder",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_label_red_neuronal",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_label_red_neuronal():\n    try:\n        label_encoder = joblib.load('modelos/label_encoder.pkl')\n        return label_encoder\n    except Exception as e:\n        raise Exception(f'Error al cargar el LabelEncoder: {str(e)}')\ndef cargar_modelo_random():\n    try:\n        modelo_random = joblib.load('modelos/modelo_rf.pkl')\n        return modelo_random",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_random",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_modelo_random():\n    try:\n        modelo_random = joblib.load('modelos/modelo_rf.pkl')\n        return modelo_random\n    except Exception as e:\n        raise Exception(f'Error al cargar el modelo del random forest: {str(e)}')   \ndef cargar_vectorizador_random():\n    try:\n        vectorizador_random = joblib.load('modelos/vectorizador_random.pkl')\n        return vectorizador_random",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_vectorizador_random",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_vectorizador_random():\n    try:\n        vectorizador_random = joblib.load('modelos/vectorizador_random.pkl')\n        return vectorizador_random\n    except Exception as e:\n        raise Exception(f'Error al cargar el vector del random: {str(e)}')   \ndef cargar_svd_random():\n    try:\n        svd_random = joblib.load('modelos/svd_random.pkl')\n        return svd_random",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_svd_random",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def cargar_svd_random():\n    try:\n        svd_random = joblib.load('modelos/svd_random.pkl')\n        return svd_random\n    except Exception as e:\n        raise Exception(f'Error al cargar el svd del random: {str(e)}')   \ndef preprocesar_datos(datos):\n    scaler = StandardScaler()\n    datos_preprocesados = scaler.fit_transform([datos])\n    return datos_preprocesados",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "preprocesar_datos",
+        "kind": 2,
+        "importPath": "clasificador.models",
+        "description": "clasificador.models",
+        "peekOfCode": "def preprocesar_datos(datos):\n    scaler = StandardScaler()\n    datos_preprocesados = scaler.fit_transform([datos])\n    return datos_preprocesados",
+        "detail": "clasificador.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "clasificador.urls",
+        "description": "clasificador.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.inicio, name='inicio'),\n    path('noticias/', views.noticias, name='noticias'),\n    path('noticias/crear/', views.crear, name='crear'),\n    path('noticias/editar/<int:noticia_id>/', views.editar, name='editar'),\n    path('noticias/eliminar/<int:id>/', views.eliminar, name='eliminar'),\n    path('clasificar/', views.vista_clasificacion, name='vista_clasificacion'),\n    path('clasificador/', views.clasificadores, name='clasificador'),\n    path('vista-clasificacion/', views.vista_clasificacion, name='vista_clasificacion'),\n    re_path(r'^favicon\\.ico$', RedirectView.as_view(url='/static/favicon.ico')),",
+        "detail": "clasificador.urls",
+        "documentation": {}
+    },
+    {
+        "label": "determinar_categoria",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def determinar_categoria(titulo, texto):\n    # Convertir el título y texto a minúsculas para una comparación insensible a mayúsculas y minúsculas\n    titulo_lower = titulo.lower()\n    texto_lower = texto.lower()\n    # Iterar sobre las categorías y palabras clave\n    for categoria, palabras in palabras_clave.items():\n        for palabra in palabras:\n            # Verificar si la palabra clave está presente en el título o texto\n            if palabra in titulo_lower or palabra in texto_lower:\n                return categoria  # Devolver la categoría si se encuentra una palabra clave",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "asignar_categorias_a_noticias",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def asignar_categorias_a_noticias():\n    # Obtener todas las instancias de Scraping\n    scraping_objects = Scraping.objects.all()\n    for scraping_obj in scraping_objects:\n        # Determinar la categoría para el scraping actual\n        categoria = determinar_categoria(scraping_obj.titulo, scraping_obj.texto)\n        # Crear una instancia de Noticia con los datos relevantes, incluida la categoría\n        noticia = Noticia(\n            enlace=scraping_obj.enlace,\n            titulo=scraping_obj.titulo,",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "obtener_titulo",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def obtener_titulo(texto):\n    # Buscar el título hasta el primer punto o hasta que encuentre comillas\n    match = re.search(r'([^.\\n\"]+)', texto)\n    if match:\n        return match.group(0).strip()\n    else:\n        return \"No especificado\"\n# Función para procesar el texto ingresado manualmente y guardar los resultados en la tabla Scraping\ndef procesar_texto_manual(texto_noticia):\n    # Extraer el título de la noticia",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "procesar_texto_manual",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def procesar_texto_manual(texto_noticia):\n    # Extraer el título de la noticia\n    titulo_noticia = obtener_titulo(texto_noticia)\n    # Calcular la longitud del texto de la noticia\n    longitud_noticia = len(texto_noticia)\n    # Crear un objeto Scraping con los datos recopilados\n    scraping_obj = Scraping.objects.create(\n        titulo=titulo_noticia,\n        caracteres=longitud_noticia,\n        fecha=datetime.now(),",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_fecha",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def parse_fecha(fecha_str):\n    try:\n        return datetime.fromisoformat(fecha_str.replace('Z', '+00:00'))\n    except ValueError:\n        return None\ndef scrape_noticia(url):\n    response = requests.get(url)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    # Extraer el título de la noticia\n    titulo_noticia = soup.find('h1').text.strip() if soup.find('h1') else \"No especificado\"",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_noticia",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def scrape_noticia(url):\n    response = requests.get(url)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    # Extraer el título de la noticia\n    titulo_noticia = soup.find('h1').text.strip() if soup.find('h1') else \"No especificado\"\n    # Extraer el texto de la noticia\n    texto_noticia = ' '.join([p.text.strip() for p in soup.find_all('p')])\n    # Calcular la longitud del texto\n    longitud_texto = len(texto_noticia)\n    # Extraer la fecha de la noticia",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_svm",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_modelo_svm(ruta_modelo, ruta_svm_vectores):\n    try:\n        modelo_svm = joblib.load(ruta_modelo)\n        vectorizador_tfidf = joblib.load(ruta_svm_vectores)\n        return modelo_svm, vectorizador_tfidf\n    except Exception as e:\n        print(f'Error al cargar el modelo SVM: {e}')\n        return None, None\ndef clasificar_svm(texto_para_clasificar,ruta_modelo_svm, ruta_svm_vectores, ruta_svm_svd):\n    try:",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "clasificar_svm",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def clasificar_svm(texto_para_clasificar,ruta_modelo_svm, ruta_svm_vectores, ruta_svm_svd):\n    try:\n        # Cargar el modelo SVM, el vectorizador TF-IDF y el modelo TruncatedSVD\n        modelo_svm = joblib.load(ruta_modelo_svm)\n        vectorizador_tfidf = joblib.load(ruta_svm_vectores)\n        svd = joblib.load(ruta_svm_svd)\n        # Preprocesar el texto de entrada\n        nlp = spacy.load('es_core_news_sm')\n        nlp.max_length = 4000000\n        texto = re.sub(r'[^\\w\\s]', '', texto_para_clasificar)  # Eliminar caracteres no alfanuméricos",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_red_neuronal",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_modelo_red_neuronal(ruta_modelo_redes_neuronales_h5):\n    try:\n        modelo_cargado = load_model(ruta_modelo_redes_neuronales_h5)\n        return modelo_cargado\n    except Exception as e:\n        print(f'Error al cargar el modelo de redes neuronales: {e}')\n        return None\ndef cargar_label_encoder(ruta_modelo_redes_neuronales_label):\n    try:\n        label_encoder_cargado = joblib.load(ruta_modelo_redes_neuronales_label)",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_label_encoder",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_label_encoder(ruta_modelo_redes_neuronales_label):\n    try:\n        label_encoder_cargado = joblib.load(ruta_modelo_redes_neuronales_label)\n        return label_encoder_cargado\n    except Exception as e:\n        print(f'Error al cargar el LabelEncoder: {e}')\n        return None    \ndef predecir_categoria(texto_noticia, modelo_cargado, vectorizer_tfidf):\n    try:\n        # Normalizar el texto de la noticia",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "predecir_categoria",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def predecir_categoria(texto_noticia, modelo_cargado, vectorizer_tfidf):\n    try:\n        # Normalizar el texto de la noticia\n        texto_normalizado = re.sub(r'[^\\w\\s]', '', texto_noticia.lower())\n        # Vectorizar el texto normalizado\n        texto_vectorizado = vectorizer_tfidf.transform([texto_normalizado])\n        # Convertir la matriz dispersa a un array de NumPy denso\n        texto_vectorizado_dense = texto_vectorizado.toarray()\n        # Realizar la predicción\n        categoria_predicha_numero = np.argmax(modelo_cargado.predict(texto_vectorizado_dense))",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "clasificar_redes_neuronales",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def clasificar_redes_neuronales(modelo_redes_neuronales, texto):\n    try:\n        nlp = spacy.load('es_core_news_sm')\n        nlp.max_length = 4000000\n        # Normalización del texto\n        text = re.sub(r'[^\\w\\s]', '', texto)\n        text = text.lower()\n        # Uso de spaCy para lematización y eliminación de stopwords\n        doc = nlp(text)\n        filtered_words = [",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_random_forest",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_modelo_random_forest(ruta_modelo_random_forest):\n    try:\n        modelo_random_forest = joblib.load(ruta_modelo_random_forest)\n        return modelo_random_forest\n    except Exception as e:\n        print(f'Error al cargar el modelo Random Forest: {e}')\n        return None\ndef cargar_vectorizador_tf_idf(ruta_vectorizador_random_forest):\n    try:\n        vectorizador_tfidf = joblib.load(ruta_vectorizador_random_forest)",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_vectorizador_tf_idf",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_vectorizador_tf_idf(ruta_vectorizador_random_forest):\n    try:\n        vectorizador_tfidf = joblib.load(ruta_vectorizador_random_forest)\n        return vectorizador_tfidf\n    except Exception as e:\n        print(f'Error al cargar el vectorizador TF-IDF: {e}')\n        return None\ndef cargar_modelo_truncated_svd(ruta_svd_forest):\n    try:\n        svd = joblib.load(ruta_svd_forest)",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "cargar_modelo_truncated_svd",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def cargar_modelo_truncated_svd(ruta_svd_forest):\n    try:\n        svd = joblib.load(ruta_svd_forest)\n        return svd\n    except Exception as e:\n        print(f'Error al cargar el modelo Truncated SVD: {e}')\n        return None\n# Función para realizar la clasificación con el modelo de Random Forest cargado\ndef clasificar_random_forest(modelo_random_forest, texto):\n    try:",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "clasificar_random_forest",
+        "kind": 2,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "def clasificar_random_forest(modelo_random_forest, texto):\n    try:\n        nlp = spacy.load('es_core_news_sm')\n        nlp.max_length = 4000000\n        # Normalización del texto\n        text = re.sub(r'[^\\w\\s]', '', texto)\n        text = text.lower()\n        # Uso de spaCy para lematización y eliminación de stopwords\n        doc = nlp(text)\n        filtered_words = [",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "palabras_clave",
+        "kind": 5,
+        "importPath": "clasificador.utils",
+        "description": "clasificador.utils",
+        "peekOfCode": "palabras_clave = {\n    'salud': ['salud', 'medicina', 'enfermedad', 'medico', 'bienestar','diagnostico'],\n    'deportes': ['deportes', 'futbol', 'baloncesto', 'tenis', 'competicion','natacion','basquet','rugby'],\n    'medioambiente': ['medioambiente', 'ecologia', 'naturaleza', 'sostenibilidad', 'cambio climatico'],\n    'economia': ['economia', 'finanzas', 'negocios', 'mercado', 'inversion','dolar'],\n    'politica': ['politica', 'gobierno', 'elecciones', 'legislación', 'parlamento'],\n    'entretenimiento': ['entretenimiento', 'cine', 'musica', 'celebridades', 'espectaculos'],\n    'horoscopo': ['horoscopo', 'astrologia', 'signos zodiacales', 'predicciones', 'astrologia diaria','luna','ascendente'],\n    'cultura': ['cultura', 'arte', 'literatura', 'tradiciones', 'patrimonio'],\n    'ciencia_tecnologia': ['ciencia', 'tecnologia', 'innovacion', 'descubrimientos', 'avances cientificos','IA','avance'],",
+        "detail": "clasificador.utils",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def inicio(request):\n    return render(request, 'paginas/inicio.html')\ndef clasificadores(request):\n    noticias = Noticia.objects.all()  # Obtener todas las noticias\n    return render(request, 'paginas/clasif_form.html')\ndef noticias(request):\n    noticias = Noticia.objects.all()\n    informes_ingresados = InformIngresada.objects.all()  # Obtener todos los InformIngresada\n    return render(request, 'noticias/index.html', {'noticias': noticias, 'informes_ingresados': informes_ingresados})\ndef crear(request):",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "clasificadores",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def clasificadores(request):\n    noticias = Noticia.objects.all()  # Obtener todas las noticias\n    return render(request, 'paginas/clasif_form.html')\ndef noticias(request):\n    noticias = Noticia.objects.all()\n    informes_ingresados = InformIngresada.objects.all()  # Obtener todos los InformIngresada\n    return render(request, 'noticias/index.html', {'noticias': noticias, 'informes_ingresados': informes_ingresados})\ndef crear(request):\n    if request.method == 'POST':\n        if 'url_noticia' in request.POST:",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "noticias",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def noticias(request):\n    noticias = Noticia.objects.all()\n    informes_ingresados = InformIngresada.objects.all()  # Obtener todos los InformIngresada\n    return render(request, 'noticias/index.html', {'noticias': noticias, 'informes_ingresados': informes_ingresados})\ndef crear(request):\n    if request.method == 'POST':\n        if 'url_noticia' in request.POST:\n            # Se proporcionó una URL, guarda en la BD en la tabla InformIngresada\n            enlace = request.POST['url_noticia']\n            inform_ingresada = InformIngresada.objects.create(enlace=enlace)",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "crear",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def crear(request):\n    if request.method == 'POST':\n        if 'url_noticia' in request.POST:\n            # Se proporcionó una URL, guarda en la BD en la tabla InformIngresada\n            enlace = request.POST['url_noticia']\n            inform_ingresada = InformIngresada.objects.create(enlace=enlace)\n            # Realizar web scraping y guardar en Scraping\n            scraping_obj = scrape_noticia(enlace)\n            scraping_obj.ingresada = inform_ingresada\n            scraping_obj.save()",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "editar",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def editar(request, id):\n    noti = Noticia.objects.get(id=id)\n    formulario = NoticiaForm(request.POST or None, request.FILES or None, instance=noti)\n    if formulario.is_valid() and request.POST:\n        formulario.save()\n        return redirect('noticias')\n    return render(request, 'noticias/editar.html', {'formulario': formulario})\ndef eliminar(request, id):\n    noti = Noticia.objects.get(id=id)\n    noti.delete()",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "eliminar",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def eliminar(request, id):\n    noti = Noticia.objects.get(id=id)\n    noti.delete()\n    return redirect('noticias')\nvectorizador_tfidf = TfidfVectorizer()\ndef vista_clasificacion(request):\n    if request.method == 'POST':\n        modelo = request.POST.get('modelo')\n        texto = request.POST.get('texto')\n        id= request.POST.get('id') ",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "vista_clasificacion",
+        "kind": 2,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "def vista_clasificacion(request):\n    if request.method == 'POST':\n        modelo = request.POST.get('modelo')\n        texto = request.POST.get('texto')\n        id= request.POST.get('id') \n        # Rutas de los modelos\n        ruta_modelo_svm = os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"modelo_svm_mejorado.pkl\")\n        ruta_svm_vectores=os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"vectorizador_svm.pkl\")\n        ruta_svm_svd=os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"svd.pkl\")\n        ruta_modelo_redes_neuronales_label = os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"label_encoder.pkl\")",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_SEQUENCE_LENGTH",
+        "kind": 5,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "MAX_SEQUENCE_LENGTH = 5587  # Definir la longitud máxima de secuencia según tu modelo\nfrom tensorflow.keras.preprocessing.sequence import pad_sequences\ndef inicio(request):\n    return render(request, 'paginas/inicio.html')\ndef clasificadores(request):\n    noticias = Noticia.objects.all()  # Obtener todas las noticias\n    return render(request, 'paginas/clasif_form.html')\ndef noticias(request):\n    noticias = Noticia.objects.all()\n    informes_ingresados = InformIngresada.objects.all()  # Obtener todos los InformIngresada",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizador_tfidf",
+        "kind": 5,
+        "importPath": "clasificador.views",
+        "description": "clasificador.views",
+        "peekOfCode": "vectorizador_tfidf = TfidfVectorizer()\ndef vista_clasificacion(request):\n    if request.method == 'POST':\n        modelo = request.POST.get('modelo')\n        texto = request.POST.get('texto')\n        id= request.POST.get('id') \n        # Rutas de los modelos\n        ruta_modelo_svm = os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"modelo_svm_mejorado.pkl\")\n        ruta_svm_vectores=os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"vectorizador_svm.pkl\")\n        ruta_svm_svd=os.path.join(settings.BASE_DIR, \"clasificador\", \"modelos\", \"svd.pkl\")",
+        "detail": "clasificador.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "sistema.asgi",
+        "description": "sistema.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "sistema.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nmodelo_path = os.path.join(BASE_DIR, 'modelos', 'modelo_redes.pkl')\nprint(modelo_path)\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-&^3^mqvy)i=f(2^+5zdg43y3yxn=nps_8br=6fhz0jkh94if%c'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "modelo_path",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "modelo_path = os.path.join(BASE_DIR, 'modelos', 'modelo_redes.pkl')\nprint(modelo_path)\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-&^3^mqvy)i=f(2^+5zdg43y3yxn=nps_8br=6fhz0jkh94if%c'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-&^3^mqvy)i=f(2^+5zdg43y3yxn=nps_8br=6fhz0jkh94if%c'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'clasificador' #aca va lo de la carpeta de la aplicacion que en este caso es clasificador",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'clasificador' #aca va lo de la carpeta de la aplicacion que en este caso es clasificador\n]\nMIDDLEWARE = [",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'sistema.urls'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "ROOT_URLCONF = 'sistema.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'sistema.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'clasificador',\n        'USER': 'root',\n        'PASSWORD': '',\n        'HOST': 'localhost',",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'clasificador',\n        'USER': 'root',\n        'PASSWORD': '',\n        'HOST': 'localhost',\n        'PORT': '3306',\n    }\n}",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "sistema.settings",
+        "description": "sistema.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "sistema.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "sistema.urls",
+        "description": "sistema.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('clasificador.urls')),  # Ruta para la aplicación clasificador\n]",
+        "detail": "sistema.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "sistema.wsgi",
+        "description": "sistema.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "sistema.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sistema.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
